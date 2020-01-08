@@ -1,4 +1,6 @@
 language: ruby
 rvm:
   - 2.6.3
-before_install: cd Alimento
+before_install:
+  - cd Alimento
+  - gem install bundler -v 2.0.2
